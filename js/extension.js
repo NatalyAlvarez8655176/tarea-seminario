@@ -17,3 +17,10 @@ Array.prototype.buscar = function(animal){
 }
 
 console.log(animal.buscar('perro'));
+
+var animal = ['gato', 'perro', 'gato','gallina','gallina'];
+console.log( animal );
+Array.prototype.unique=function(a){
+  return function(){return this.filter(a)}}(function(a,b,c){return c.indexOf(a,b+1)<0
+});
+console.log( animal.unique() );
